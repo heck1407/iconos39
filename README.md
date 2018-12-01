@@ -10,7 +10,8 @@
 
 ## Estudiantes
 
-* nombre | correo@gmail.com | [Drive]()
+* Alejandro | alexvill82@hotmail.com | [Drive]()
+* Raúl | rauldavila1990@gmail.com | [Drive]()
 
 ## Materia:
 
