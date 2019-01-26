@@ -12,6 +12,7 @@
 
 * Verónica | veronicabadillo@yahoo.com.mx | [Dropbox](https://www.dropbox.com/scl/fo/ydytw5pptf74mzxm74acz/AABib7kEy3aM8hFmCp_J1mXia?dl=0&oref=e&r=AA3gj3pX_XLDg8uu70fxK9Kdcfch94Hal5p2dEoqos1aLCfMahDMsZUaHNweBnABnjCpP0wIbuKA_kDo72dIJKOlFZgiB7ocjEMBN_s6uF5oPt771gDimyyVpY1_F-saXGmvnHb_bIj1JALX9K0hGp0shlm7QM-iArWcMm9VvAruoHEFvnMoWy6ZG4CxcuUNy9w)
 * Raúl | rauldavila1990@gmail.com | [Drive](https://drive.google.com/drive/folders/16xo4pVkZfGKe-9gGwhZ_oYXJSfuKqKT_)
+* Ricardo | ricardo.bugarin@gmail.com | [Drive]()
 
 ## Materia:
 
@@ -39,3 +40,11 @@
   * Sólo tienen derecho a 1 falta.
   * Con una falta son evaluados sobre 9.
   * Con 2 faltas, están reprobados.
+
+
+## Actividades
+
+| Actividad | Entrega | Verónica | Raul | Ricardo |
+| -- | -- | -- | -- | -- |
+| 1. ¿Que proyecto voy a realizar? | clase 2 | ? | ? | ? |
+| 2. Identificar lista de datos dinámicos del proyecto | clase 2 | ? | ? | ? |
