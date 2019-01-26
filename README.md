@@ -16,7 +16,7 @@
 
 ## Materia:
 
-### Seminario de lenguajes de Programación (12pm a 4pm)
+### [Seminario de lenguajes de Programación](https://docs.google.com/spreadsheets/d/1FEzpb9huP8eOFmXpeFGWlGmLXqZf64H6fjn517czTfg/) (12pm a 4pm)
 
 1. Sábado 26/Ene/2019
 1. Sábado 02/Feb/2019
