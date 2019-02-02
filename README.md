@@ -46,6 +46,6 @@
 
 | Actividad | Entrega | Verónica | Raul | Ricardo |
 | -- | -- | -- | -- | -- |
-| 3. Crear cards dinámicas con Arreglos y Funciones JS | clase 2 | ? | ? | ? |
+| 3. Crear cards dinámicas con Arreglos y Funciones JS | clase 3 | ? | ? | ? |
 | 2. Identificar lista de datos dinámicos del proyecto | clase 2 | ✔️ | ✔️ | ✔️ |
 | 1. ¿Que proyecto voy a realizar? | clase 2 | ✔️ | ✔️ | ✔️ |
