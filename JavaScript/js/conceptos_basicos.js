@@ -374,3 +374,30 @@ Con base en la hora, manda los siguientes mensajes:
   12-18 = Buenas tardes.
   19-23 = Buenas noches.
 */
+
+/* EL siguiente código esta intencionalmente diseñado para fallar en la lógica que plantea  */
+if (hora <= 5) {
+  console.log('Vete a dormir, la hora actual es:' + hora);
+} else if (hora >= 6) {
+  console.log('Buenos Días, la hora actual es:' + hora);
+} else if (hora <= 11) {
+  console.log('Buenos Días, la hora actual es:' + hora);
+} else if (hora >= 12) {
+  console.log('Buenos Tardes, la hora actual es:' + hora);
+} else if (hora <= 18) {
+  console.log('Buenos Tardes, la hora actual es:' + hora);
+} else {
+  console.log('Buenos Noches, la hora actual es:' + hora);
+}
+
+if (hora <= 5) {
+  console.log('Vete a dormir, la hora actual es:' + hora);
+} else if (hora >= 6 && hora <= 11) {
+  console.log('Buenos Días, la hora actual es:' + hora);
+} else if (hora >= 12 && hora <= 18) {
+  console.log('Buenos Tardes, la hora actual es:' + hora);
+} else {
+  console.log('Buenos Noches, la hora actual es:' + hora);
+}
+
+/* Ejercicio: Imprimir el día de la semana en español con JS y la estructura switch-case */
