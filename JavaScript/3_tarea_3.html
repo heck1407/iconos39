@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+
+<body>
+
+</body>
+<script>
+  let works = [
+    ['Proyecto 1', 'Descripción Proyecto 1', 'https://youtube.com', 'https://placeimg.com/600/600/nature'],
+    ['Proyecto 2', 'Descripción Proyecto 2', 'https://iconos.edu.mx', 'https://placeimg.com/600/600/animals'],
+    ['Proyecto 3', 'Descripción Proyecto 3', 'https://ed.team', 'https://placeimg.com/600/600/people'],
+    ['Proyecto 4', 'Descripción Proyecto 4', 'https://ed.team', 'https://placeimg.com/600/600/any'],
+    ['Proyecto 5', 'Descripción Proyecto 5', 'https://ed.team', 'https://placeimg.com/600/600/any']
+  ];
+
+  function templateCard(project) {
+    return `
+      <div class="card" style="width: 18rem;">
+        <img src="${project[3]}" class="card-img-top" alt="${project[0]}">
+        <div class="card-body">
+          <h5 class="card-title">${project[0]}</h5>
+          <p class="card-text">${project[1]} - ${project[2]}</p>
+          <a href="${project[2]}" class="btn btn-primary">Ver Proyecto</a>
+        </div>
+      </div>
+    `;
+  }
+
+  works.forEach(function (el, index) {
+    document.write(templateCard(el));
+    console.log(el, index)
+  })
+</script>
+
+</html>
