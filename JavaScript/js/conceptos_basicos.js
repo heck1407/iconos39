@@ -290,3 +290,87 @@ if (5 < 6) {
 
 //La lógica de prográmación nos dice que debería imprimir Jonathan, sin embargo al usar var, JS hace Hoisting e imprime Ulises que fue el último valor asignado, si cambias las dos declaraciones de var por let, te va a imprimir el valor correcto que es Jonathan.
 console.log(name);
+
+/*
+Uso de const
+Se usa para definir una constante
+*/
+const PI = 3.1416;
+console.log(PI);
+
+//A una constante no le puedes cambiar el valor una vez definido
+//PI = 2;
+
+//Una constante no la puedes declarar vacia
+//const colores;
+
+const colores = ['negro', 'blanco', 'gris'];
+console.log(colores);
+
+colores.push('azul', 'rojo', 'verde');
+console.log(colores);
+
+const carro = {
+  marca: 'Hyundai',
+  modelo: 'Accent'
+}
+
+console.log(carro);
+
+carro.modelo = 'Accent Hatchback';
+
+console.log(carro);
+
+carro.color = 'negro';
+
+//carro = [];
+
+console.log(carro);
+
+/*
+Estructuras de control
+  Son mecanismos que nos permiten modificar el flujo de nuestra programación
+    Estructuras condicionales
+      if - else
+      if - else if - else
+      switch -case
+    Estrcuturas repetitivas
+      for
+      while
+*/
+console.log(Date());
+
+let fecha = new Date();
+let hora = fecha.getHours();
+
+console.log(hora)
+
+/* el operador > o < sólos excluyen el valor dentro de la evaluación de la condición */
+if (hora < 12) {
+  console.log('La hora esta AM');
+} else {
+  console.log('La hora esta PM');
+}
+
+/* el operador compuesto incluye el valor dentro de la evaluación de la condición */
+if (hora <= 11) {
+  console.log('La hora esta AM');
+} else {
+  console.log('La hora esta PM');
+}
+
+/*
+  Tipos de operadores
+    Aritméticos: + - * / %
+    Comparación: < > <= >= == ===
+    Lógicos: AND - &&, OR - || y NOT - !
+  */
+
+/*
+Actividad
+Con base en la hora, manda los siguientes mensajes:
+  0-5 = Vete a dormir.
+  6-11 = Buenos días.
+  12-18 = Buenas tardes.
+  19-23 = Buenas noches.
+*/
