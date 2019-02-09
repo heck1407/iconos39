@@ -46,6 +46,9 @@
 
 | Actividad | Entrega | Verónica | Raul | Ricardo |
 | -- | -- | -- | -- | -- |
-| 3. Crear cards dinámicas con Arreglos y Funciones JS | clase 3 | ? | ? | ? |
+| 6. En la NavBar de Bootstrap implementa tu mapa de sitio. | clase 4 | ? | ? | ? |
+| 5. Crear tu carpeta de proyecto con el Starter Template y la NavBar de Bootstrapt | clase 4 | ? | ? | ? |
+| 4. Ejercicio: Imprimir el día de la semana en español con JS y la estructura switch-case | clase 4 | ? | ? | ? |
+| 3. Crear cards dinámicas con Arreglos y Funciones JS | clase 3 | ✔️ | ✔️ | ✔️ |
 | 2. Identificar lista de datos dinámicos del proyecto | clase 2 | ✔️ | ✔️ | ✔️ |
 | 1. ¿Que proyecto voy a realizar? | clase 2 | ✔️ | ✔️ | ✔️ |
