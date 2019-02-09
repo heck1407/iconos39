@@ -169,7 +169,7 @@ function saludar() {
 }
 
 /* Ejecutar o Invocar una función */
-saludar();
+//saludar();
 
 
 function sumar(a, b) {
@@ -203,3 +203,33 @@ Tarea:
 
   Usa las cards de Bootstrap para mostrarlo en el HTML.
 */
+
+/*
+  Objetos
+
+  Son el tipo de dato más importante en JS, existe una frase que dice "Todo es un objeto en JS"
+
+  Un objeto es un un conjunto de pares de clave-valor, donde podemos tener atributos (características o propiedades) y métodos (acciones o funciones que ese objeto puede hacer).
+*/
+
+let objeto = {};
+console.log(objeto);
+
+let silla = {
+  material: 'Madera',
+  respaldo: true,
+  patas: 4,
+  sentar: function () {
+    console.log('Se han sentado, estoy cumpliendo mi propósito');
+  },
+  hacerPalanca: function (aQue) {
+    return `Estoy sirviendo como palanca en una ${aQue}`;
+  }
+};
+
+console.log(silla);
+console.log(silla.material);
+console.log(`Una silla tiene ${silla.patas} patas.`);
+silla.sentar();
+console.log(silla.hacerPalanca('puerta'));
+console.log(silla.hacerPalanca('persona'));
