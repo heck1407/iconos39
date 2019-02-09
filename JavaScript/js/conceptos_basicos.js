@@ -233,3 +233,60 @@ console.log(`Una silla tiene ${silla.patas} patas.`);
 silla.sentar();
 console.log(silla.hacerPalanca('puerta'));
 console.log(silla.hacerPalanca('persona'));
+
+let banco = {
+  sentar: function () {
+    console.log('sentar banco');
+  }
+}
+
+banco.sentar()
+/*
+  Actividad en clase: Define un objeto con 5 atributos y 3 métodos.
+*/
+
+let persona = {
+  nombre: 'Jon',
+  edad: 34,
+  contacto: {
+    email: 'jonmircha@gmail.com',
+    cel: '5512345678',
+    web: 'jonmircha.com'
+  },
+  pasatiempos: ['Programar', 'Correr', 'Leer'],
+  saludar: function () {
+    return `Hola, me llamo ${this.nombre}, tengo ${this.edad} años`
+  }
+}
+
+console.log(persona);
+console.log(persona.contacto.email);
+console.log(persona.pasatiempos[1]);
+console.log(persona.saludar());
+//Este this hace referencia al contexto (scope) global del archivo, el objeto Window
+console.log(this);
+console.log(persona.nombre);
+
+/*
+Porqué usar var es una mala práctica
+
+un scope o bloque en JS esta definido por estructuras entre { }, ejemplo una función, un if, un else, un for, un while, etc.
+
+Definir variables con var corremos el riesgo de que JS aplique el Hoisting, que es la elevación al contexto padre de las variables.
+
+Por eso debes usar let o const en vez de var
+*/
+
+var name = 'Jonathan';
+console.log(name)
+
+if (5 < 6) {
+  console.log('Esto es verdadero')
+  var name = 'Ulises';
+  console.log(name);
+} else {
+  console.log('esto es falso')
+}
+
+//La lógica de prográmación nos dice que debería imprimir Jonathan, sin embargo al usar var, JS hace Hoisting e imprime Ulises que fue el último valor asignado, si cambias las dos declaraciones de var por let, te va a imprimir el valor correcto que es Jonathan.
+console.log(name);
