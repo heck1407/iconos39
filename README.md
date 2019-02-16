@@ -46,6 +46,8 @@
 
 | Actividad | Entrega | Verónica | Raul | Ricardo |
 | -- | -- | -- | -- | -- |
+| 8. Traer un formulario de contacto (Nombre, Correo, Asunto y Comentarios) construido en HTML. | clase 5 | ? | ? | ? |
+| 7. Programación de botonos para temas de color. | clase 5 | ? | ? | ? |
 | 6. En la NavBar de Bootstrap implementa tu mapa de sitio. | clase 4 | ? | ? | ? |
 | 5. Crear tu carpeta de proyecto con el Starter Template y la NavBar de Bootstrapt | clase 4 | ? | ? | ? |
 | 4. Ejercicio: Imprimir el día de la semana en español con JS y la estructura switch-case | clase 4 | ? | ? | ? |
