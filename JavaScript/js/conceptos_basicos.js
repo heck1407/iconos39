@@ -401,3 +401,48 @@ if (hora <= 5) {
 }
 
 /* Ejercicio: Imprimir el día de la semana en español con JS y la estructura switch-case */
+
+let dia = fecha.getDay()
+console.log(dia)
+
+switch (dia) {
+  case 0:
+    console.log('Domingo');
+    break;
+  case 1:
+    console.log('Lunes');
+    break;
+  case 2:
+    console.log('Martes');
+    break;
+  case 3:
+    console.log('Miércoles');
+    break;
+  case 4:
+    console.log('Jueves');
+    break;
+  case 5:
+    console.log('Viernes');
+    break;
+  case 6:
+    console.log('Sábado');
+    break;
+  default:
+    console.log('Opción incorrecta');
+    break;
+}
+
+/*
+for (inicializar variable; condición; incremento o decremento) {
+  código del for que se ejecuta mientras la condición sea verdadera;
+}
+*/
+
+for (let i = 1; i < 7; i++) {
+  document.write(`<h${i}>Encabezado de Tipo ${i}</h${i}>`);
+}
+
+
+
+
+
