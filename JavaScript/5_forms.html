@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formularios</title>
+</head>
+
+<body>
+  <h1>Formularios</h1>
+  <form id="contact-form" action="https://formspree.io/jonmircha@gmail.com" method="POST">
+    <input type="text" name="nombre" placeholder="Proporciona tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+      title="Sólo escribe letras y espacios" required>
+    <br>
+    <input type="email" name="email" placeholder="Proporciona tu email"
+      pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$"
+      title="Escribe un correo válido" required>
+    <br>
+    <textarea name="comentarios" cols="30" rows="5" placeholder="Escribe tus comentarios" maxlength="255"
+      required></textarea>
+    <br>
+    <input name="enviar" type="submit">
+  </form>
+  <script src="js/forms.js"></script>
+</body>
+
+</html>
