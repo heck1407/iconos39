@@ -36,3 +36,36 @@ fetch('assets/footer.html')
   .catch((err) => console.log(err));
 
 
+const personalInfo = document.getElementById('personal-info');
+const movies = document.getElementById('movies');
+
+fetch('js/movies.json')
+  .then((res) => res.json())
+  .then((res) => {
+    console.log(res);
+    personalInfo.innerHTML = `
+      <h2>${res.nombre}</h2>
+      <small>${res.edad}</small>
+      <p>${res.correo}</p>
+    `;
+
+    console.log(res.movies);
+    let codigoMovies = '';
+
+    res.movies.forEach(function (el) {
+      codigoMovies += `
+        <figure>
+          <img src="${el.poster}">
+          <figcaption>
+            <h3>${el.title}</h3>
+            <p><b>${el.year}</b></p>
+            <p><i>${el.genres}</i></p>
+          </figcaption>
+        </figure>
+      `
+    })
+
+    movies.innerHTML = codigoMovies;
+
+  })
+  .catch((err) => console.log(err));
